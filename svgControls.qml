@@ -33,8 +33,8 @@ Window {
            texto.text = value;
            myCircle2.rotation = value
            horizonCircle.rotation = value
-           //mechanism.x = (value + 90) * 2
-           //mechanism.y = (value + 90) * 2
+           mechanism.x = (value + 90) * 2
+           mechanism.y = (value + 90) * 2
        }
        from: -90
        to: 90
